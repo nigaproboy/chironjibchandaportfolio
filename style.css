@@ -16,7 +16,7 @@ body{
 header{
     z-index: 889;
     position: fixed;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(180, 177, 177, 0.397);
     top: 0;
     left: 0;
     width: 100%;
@@ -28,12 +28,12 @@ header{
 }
 
 header.sticky{
-    background-color: #3a6cf4;
+    background-color: #e4e4e4;
     padding: 10px 200px;
 }
 
 header .brand{
-    color: white;
+    color: rgb(90, 90, 90);
     font-size: 1.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -45,7 +45,7 @@ header .navigation{
 }
 
 header .navigation a{
-    color: white;
+    color: rgb(39, 39, 39);
     font-size: 1em;
     text-decoration: none;
     font-weight: 500;
@@ -53,7 +53,7 @@ header .navigation a{
 }
 
 header .navigation a:hover{
-    color: #3a6cf4;
+    color: #6d6d6d;
 }
 
 header .sticky .navigation a:hover{
@@ -82,7 +82,7 @@ section{
 }
 
 .main .content h2{
-    color: white;
+    color: rgb(173, 165, 165);
     font-size: 2em;
     font-weight: 500;
 }
@@ -99,7 +99,7 @@ section{
 }
 
 .animated-text h3{
-    color: #4e9eff;
+    color: #999898;
     font-size: 3em;
     font-weight: 700;
     line-height: 70px;
@@ -133,8 +133,8 @@ section{
 }
 
 .btn{
-    color: white;
-    background-color: #3a6cf4;
+    color: rgb(255, 247, 247);
+    background-color: #141414;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -148,7 +148,7 @@ section{
 }
 
 .btn:hover{
-    background-color: #235bf6;
+    background-color: #bbafaf9d;
 }
 
 .media-icons{
@@ -174,7 +174,7 @@ section{
 
 .section-title{
     position: relative;
-    color: #3a6cf4;
+    color: #000000c9;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 60px;
@@ -187,7 +187,7 @@ section{
     left: 50%;
     width: 140px;
     height: 4px;
-    background-color: #3a6cf4;
+    background-color: #afa2a2bb;
     transform: translateX(-50%);
 }
 
@@ -199,7 +199,7 @@ section{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #3a6cf4;
+    background-color: #46484e;
     transform: translateX(-50%);
 }
 
@@ -251,7 +251,7 @@ section{
 /* Skills Section */
 
 .skills{
-    background-color: black;
+    background-color: rgb(175, 166, 166);
 }
 
 .skills .content{
@@ -299,7 +299,7 @@ section{
     position: relative;
     width: 100%;
     height: 15px;
-    background-color: #ccc;
+    background-color: #ffffff;
     border-radius: 2px;
 }
 
@@ -354,7 +354,7 @@ section{
 }
 
 .services .content .card{
-    background-color: #fff;
+    background-color: rgb(235, 185, 185);
     width: 340px;
     margin: 10px;
     padding: 25px;
@@ -368,7 +368,7 @@ section{
 }
 
 .services .content .card .service-icon{
-    color: #3a6cf4;
+    color: #101011;
     font-size: 8rem;
     text-align: center;
     transition: 0.3s linear;
@@ -379,7 +379,7 @@ section{
 }
 
 .services .content .card .info h3{
-    color: #3a6cf4;
+    color: rgb(175, 166, 166);
     font-size: 1.2rem;
     font-weight: 700;
     margin: 10px;
@@ -388,8 +388,8 @@ section{
 }
 
 .services .content .card:hover{
-    background-color: #3a6cf4;
-    color: white;
+    background-color: rgb(175, 166, 166);
+    color: rgb(173, 161, 161);
 }
 
 .services .content .card:hover .service-icon,
@@ -402,7 +402,7 @@ section{
 /* Work */
 
 .work{
-    background-color: #000016;
+    background-color: rgb(175, 166, 166);
 }
 
 .work .content{
@@ -473,7 +473,7 @@ section{
   }
   
   .contact .content .row .card .contact-icon{
-    color: #3a6cf4;
+    color: #000000;
     font-size: 4em;
     text-align: center;
     transition: transform 0.5s ease;
@@ -488,14 +488,14 @@ section{
   }
   
   .contact .content .row .card .info h3{
-    color: #111;
+    color: #000000;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
   }
   
   .contact .content .row .card .info span{
-    color: #666;
+    color: #000000;
     font-weight: 500;
   }
   
@@ -524,20 +524,20 @@ section{
   
   .contact-form .input-box input,
   .contact-form .input-box textarea{
-    color: #111;
+    color: #000000;
     width: 100%;
     padding: 10px;
     font-size: 1em;
     font-weight: 400;
     outline: none;
-    border: 1px solid #111;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     resize: none;
   }
   
   .contact-form .input-box .send-btn{
-    color: #fff;
-    background: #3a6cf4;
+    color: #a8a8a8;
+    background: #b6b6b6;
     display: inline-block;
     font-size: 1.1em;
     font-weight: 500;
@@ -550,14 +550,14 @@ section{
   }
   
   .contact-form .input-box .send-btn:hover{
-    background: #235bf6;
+    background: #aaaaaa;
   }
 
   /* Footer */
   
   .footer{
-    background: #000016;
-    color: #fff;
+    background: #aaaaaa;
+    color: #9b9b9b;
     text-align: center;
     padding: 2em;
   }
@@ -573,7 +573,7 @@ section{
   }
   
   .footer p a{
-    color: #3a6cf4;
+    color: #a5a5a5;
     font-weight: 600;
     text-decoration: none;
   }
@@ -597,7 +597,7 @@ section{
     .navigation.active{
         z-index: 889;
         position: fixed;
-        background-color: white;
+        background-color: rgb(172, 172, 172);
         top: 0;
         right: 0;
         width: 380px;
@@ -606,12 +606,12 @@ section{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+        box-shadow: 0 5px 25px rgb(255, 255, 255);
         transition: 0.3s ease;
     }
 
     header .navigation a{
-        color: black;
+        color: rgb(165, 165, 165);
         font-size: 1.2em;
         margin: 10px;
         padding: 10px 40px;
@@ -619,14 +619,14 @@ section{
     }
 
     header .navigation a:hover{
-        background-color: #3a6cf4;
-        color: white;
+        background-color: #1b1919;
+        color: rgb(255, 255, 255);
         transition: 0.3s ease;
     }
 
     .menu-btn{
         position: absolute;
-        background-image: url(Image/menu.png);
+        background-image: url(me.jpg);
         background-position: center;
         background-size: 30px;
         background-repeat: no-repeat;
@@ -701,8 +701,8 @@ section{
 .scrollToTop-btn{
     z-index: 999;
     position: fixed;
-    background: #3a6cf4;
-    color: #fff;
+    background: hsl(0, 0%, 100%);
+    color: #f7f1f1;
     width: 45px;
     height: 45px;
     right: 0;
@@ -717,6 +717,5 @@ section{
     transition: all 0.3s ease;
   }
 
-
-
+  
 
